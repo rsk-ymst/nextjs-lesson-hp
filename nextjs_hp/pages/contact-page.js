@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import Image from 'next/image'
 
-const Contact = () => {
+export default function Contact () {
     return (
         <Layout title="Contact">
             <div className='bg-while text-center shadow-xl p-8 w-80 rounded'>
@@ -33,7 +33,5 @@ const Contact = () => {
                 </div>
             </div>
         </Layout>
-    )
-};
-
-export default Contact
+    );
+}
